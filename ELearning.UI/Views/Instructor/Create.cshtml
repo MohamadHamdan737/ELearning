@@ -1,0 +1,99 @@
+﻿@model Instructor
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "_AdminLayout";
+}
+<link href="~/css/add.css" rel="stylesheet" />
+<link href="~/css/Style2.css" rel="stylesheet" />
+<hr />
+<div class="ml3">
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="hw">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card shadow-lg">
+                            <div class="card-body">
+                                <div class="filter-sidebar ">
+                                    <h3>Create Instructor</h3>
+                                    <hr />
+
+                                      <div class="form-group">
+                <label asp-for="InstructorName" class="control-label">Instructor Name</label>
+                <input asp-for="InstructorName" class="form-control" />
+                <span asp-validation-for="InstructorName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="City" class="control-label"></label>
+                <input asp-for="City" class="form-control" />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div> 
+            <div class="form-group">
+                <label asp-for="Majoring" class="control-label"></label>
+                <input asp-for="Majoring" class="form-control" />
+                <span asp-validation-for="Majoring" class="text-danger"></span>
+            </div> 
+            <div class="form-group">
+                <label asp-for="File" class="control-label">Instructor Image</label>
+                <input asp-for="File" type="file" name="File" accept="image/*" class="form-control" />
+                <span asp-validation-for="File" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <h5>*Option</h5>
+                <label asp-for="FacebookLink" class="control-label">Facebook Link</label>
+                <input asp-for="FacebookLink" class="form-control" />
+                <span asp-validation-for="FacebookLink" class="text-danger"></span>
+            </div> 
+            <div class="form-group">
+                <h5>*Option</h5>
+                <label asp-for="InstagramLink" class="control-label">Instagram Link</label>
+                <input asp-for="InstagramLink" class="form-control" />
+                <span asp-validation-for="InstagramLink" class="text-danger"></span>
+            </div> 
+            <div class="form-group">
+                <h5>*Option</h5>
+                <label asp-for="TwitterLink" class="control-label">Twitter Link</label>
+                <input asp-for="TwitterLink" class="form-control" />
+                <span asp-validation-for="TwitterLink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreationDate" class="control-label">Creation Date</label>
+                <input asp-for="CreationDate" class="form-control" />
+                <span asp-validation-for="CreationDate" class="text-danger"></span>
+            </div>
+
+                                    <div class="form-group">
+                                            <input type="submit" value="Create" class="btn btn-lg btn-outline-primary" />
+                                            <a asp-action="Instructors" asp-controller="Admin" class="btn btn-lg btn-default">Cancel</a>
+                                    </div>
+
+                                    <div class="pb-3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+          
+   
+        </form>
+    </div>
+</div>
+</div>
+
+

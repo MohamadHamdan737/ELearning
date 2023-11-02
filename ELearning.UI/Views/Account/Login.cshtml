@@ -1,0 +1,80 @@
+﻿@model LoginViewModel
+
+@{
+	ViewData["Title"] = "Login";
+	Layout = "_UserLayout";
+}
+
+
+<link href="~/css/stylesheet.css" rel="stylesheet" />
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        
+			<div class="login-wrap">
+			<div asp-validation-summary="All" class="text-danger"></div> 
+				<div class="login-html">
+					<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+					<input id="tab-2" type="radio" name="tab" class="for-pwd"><label for="tab-2" class="tab">Forgot Password</label>
+					<div class="login-form">
+					<form asp-action="Login">
+						
+						<div class="sign-in-htm">
+							<div class="group">
+								<label asp-for="Email" class="label">Email</label>
+								<input id="user" placeholder="user@example.com" asp-for="Email" type="text" class="input">
+								 <span asp-validation-for="Email" class="text-danger"></span> 
+							</div>
+							<div class="group">
+								<label asp-for="Password" class="label">Password</label>
+								<input id="pass" asp-for="Password" type="password" class="input" data-type="password">
+								 <span asp-validation-for="Password" class="text-danger"></span> 
+							</div>
+							<div class="form-group form-check">
+								<label class="form-check-label">
+									<input class="form-check-input" asp-for="RememberMe" /> @Html.DisplayNameFor(model => model.RememberMe)
+								</label>
+							</div>
+							<div class="group">
+								<input type="submit" class="button" value="Sign In">
+							</div>
+							<div class="text-center mt-4 font-weight-light">
+								Don't have an account? <a asp-action="Register" class="text-primary">Create</a>
+							</div>
+							<div class="hr"></div>
+						</div>
+		</form>
+					<form asp-controller="Account" asp-action="ForgotPassword" method="post" class="form-horizontal" role="form">
+
+						<hr />
+
+						<div class="for-pwd-htm">
+							<div class="group">
+								<label asp-for="Email" class="label"> Email</label>
+								<input asp-for="Email" type="text" class="input">
+								<span asp-validation-for="Email" class="text-danger"></span>
+							</div>
+							<div class="group">
+								<input type="submit" class="button" value="Reset Password">
+							</div>
+							<div class="hr"></div>
+						</div>
+
+								
+						
+					</form>
+
+
+
+					
+
+
+
+
+					</div>
+				</div>
+			</div>
+    </div>
+</div>
+
+

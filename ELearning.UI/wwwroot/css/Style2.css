@@ -1,0 +1,136 @@
+﻿body {
+    
+}
+.pading {
+    padding: 50px;
+}
+.img{
+    height:200px;
+}
+.padingbutton{
+    padding-block:240px;
+}
+@media (max-width: 941px) {
+    .ml {
+        margin-left: 900px;
+        margin-top: 100px;
+        width: 500px;
+    }
+
+    .ml3 {
+        margin-top: 80px;
+    }
+
+    .ml2 {
+        margin-left: 300px;
+        margin-top: 130px;
+        width: 1000px;
+    }
+
+    .slider {
+        height: 700px;
+    }
+
+    .f {
+        margin-bottom: 350px;
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+
+    .f2 {
+        margin-bottom: 350px;
+        margin-left: 300px;
+        margin-top: 50px;
+    }
+
+    .video {
+        width: 1000px;
+        height: 500px;
+    }
+}
+
+/*laptop
+*/@media screen and (max-width: 1624px) {
+    .padingbutton2 {
+        padding-block: 10px;
+    }
+    .ml {
+        margin-left: 300px;
+        margin-top: 100px;
+        width: 1000px;
+    }
+    .ml3 {
+        margin-top: 80px;
+    }
+
+    .ml2 {
+        margin-left: 300px;
+        margin-top: 130px;
+        width: 1000px;
+    }
+    .slider {
+        height: 700px;
+    }
+    .f 
+    {
+        margin-bottom: 350px;
+        margin-left:500px;
+        margin-top:50px;
+    }
+    .f2
+    {
+        margin-bottom: 350px;
+        margin-left:300px;
+        margin-top:50px;
+    }
+    .video
+    {
+        width:1000px;
+        height:500px;
+    }
+}
+  /*screen*/
+@media screen and (max-width: 1524px) {
+    .padingbutton2
+    {
+        padding-block: 240px;
+    }
+    .ml
+    {
+        margin-left: 250px;
+        margin-top: 100px;
+        width: 1000px;
+    }
+    .ml3 
+    {
+        margin-top: 80px;
+    }
+
+    .ml2 
+    {
+        margin-left: 250px;
+        margin-top: 130px;
+        width: 1000px;
+    }
+    .slider 
+    {
+        height: 700px;
+    }
+    .f
+    {
+        margin-bottom: 350px;
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+    .f2
+    {
+        margin-bottom: 350px;
+        margin-left: 200px;
+        margin-top: 50px;
+    }
+    .video 
+    {
+        width: 800px;
+        height: 500px;
+    }
+}

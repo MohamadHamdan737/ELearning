@@ -1,0 +1,93 @@
+﻿@model Courses
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "_AdminLayout";
+}
+
+
+
+<link href="~/css/MyAccount.css" rel="stylesheet" />
+<hr />
+
+<link href="~/css/Style2.css" rel="stylesheet" />
+<hr />
+<div class="ml">
+    <div class="container light-style flex-grow-1 container-p-y">
+
+        <h4 class="font-weight-bold py-3 mb-4">
+            Details Course
+        </h4>
+ <div class="card overflow-hidden">
+     <div class="row no-gutters row-bordered row-border-light">
+         <div class="col-md-3 pt-0">
+             <div class="list-group list-group-flush account-settings-links">
+                 <a class="list-group-item list-group-item-action active" data-toggle="list" href="#account-general">General</a>
+                        <a asp-action="VideoSettings" asp-route-id="@Model.CoursesId" class="list-group-item list-group-item-action"><i class="bi bi-camera-video mr-2"></i>Videos</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#Certificate"> <i class="bi bi-image mr-2"></i>Certificate</a>
+             </div>
+         </div>
+         <div class="col-md-9">
+             <div class="tab-content">
+                 <div class="tab-pane fade active show" id="account-general">
+
+                     <div class="card-body media align-items-center">
+                   <img class="img-fluid" width="200" height="100" controls src="data:image/png;base64,@Convert.ToBase64String(Model.FileDataImage)" alt="Image" />
+                     </div>
+                     <hr class="border-light m-0">
+
+                     <div class="card-body">
+                         <div class="form-group">
+                             <label class="form-label">Courses Name</label>
+                                        <label class="form-control mb-1">@Model.CoursesName</label>
+                         </div>
+                         <div class="form-group">
+                             <label class="form-label">Hours</label>
+                                        <label class="form-control mb-1">@Model.Hours</label>
+                         </div>
+                         <div class="form-group">
+                             <label class="form-label">Description</label>
+                      <textarea readonly style="background:white" class="form-control mb-1">@Model.Description</textarea>
+
+                             <div class="form-group">
+                                 <label class="form-label">Instructor Name</label>
+                                            <label class="form-control mb-1">@Model.InstructorName</label>
+                             </div> 
+                             <div class="form-group">
+                                 <label class="form-label">Created by</label>
+                                            <label class="form-control mb-1">@Model.CreatedBy</label>
+                             </div>
+                         </div>
+                               
+                     </div>
+
+                         
+                 </div>
+                        
+                        @* <div class="card-body pb-2" id="video">
+                            <a asp-action="VideoSettings" asp-route-id="@Model.CoursesId" asp-controller="Course" class="btn btn-lg btn-success">Videos</a>
+                        </div> *@
+
+
+
+                        <div class="card-body pb-2" id="Certificate">
+                            <label class="form-label">Certificate</label>
+                            <div class="card-body media align-items-center">
+                                <img class="img-fluid" width="320" height="240" controls src="data:image/png;base64,@Convert.ToBase64String(Model.FileDataCertificate)" alt="Image" />                
+                                <div class="media-body ml-4">
+                             
+                                </div>
+
+                            </div>
+
+                           
+                        </div>
+             </div>
+         </div>
+     </div>
+            <a asp-action="Course" asp-controller="Admin" class="btn btn-lg btn-default">Cancel</a>
+
+ </div>
+        
+    </div>
+</div>

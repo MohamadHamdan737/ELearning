@@ -1,0 +1,133 @@
+﻿@model Courses
+@{
+    ViewData["Title"] = "StartCourse";
+}
+<link href="~/css/MyAccount.css" rel="stylesheet" />
+<hr />
+<link href="~/css/Style2.css" rel="stylesheet" />
+<link href="css2/style.css" rel="stylesheet">
+<hr />
+<form asp-action="StartCourse" enctype="multipart/form-data">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+            <!-- Detail Start -->
+            <div class="container-fluid py-5">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div class="mb-5">
+                                    <h1 class="display-4">@Model.CoursesName</h1><br/>
+
+                        <img class="img-fluid" width="500" controls src="data:image/png;base64,@Convert.ToBase64String(Model.FileDataImage)" alt="Image" /><br />
+                        <p style="margin-top:30px;color:black">@Model.Description</p>
+
+                              
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4 mt-5 mt-lg-0">
+                            <div class="bg-primary mb-5 py-3">
+                                <h3 class="text-white py-3 px-4 m-0">Course Features</h3>
+                                <div class="d-flex justify-content-between border-bottom px-4">
+                                    <h6 class="text-white my-3">Instructor</h6>
+                            <h6 class="text-white my-3">@Model.InstructorName</h6>
+                                </div>
+                                <div class="d-flex justify-content-between border-bottom px-4">
+                                    <h6 class="text-white my-3">Lectures</h6>
+                                    <h6 class="text-white my-3">@ViewBag.Lectures</h6>
+                                </div>
+                                <div class="d-flex justify-content-between border-bottom px-4">
+                                    <h6 class="text-white my-3">Duration</h6>
+                            <h6 class="text-white my-3">@Model.Hours Hrs</h6>
+                                </div>
+                                
+                                <div class="py-3 px-4">
+                            @if (ViewBag.Lectures>0)
+                            {
+                                <a class="btn btn-block btn-secondary py-3 px-5" asp-action="CourseVideo" asp-controller="Course" asp-route-id="@Model.CoursesId">Start</a>
+
+                            }
+                            @if (ViewBag.IsFavorite>0)
+                            {
+                                <a class="btn btn-block btn-secondary py-3 px-4" asp-action="RemoveFromFavorites" asp-controller="Course" asp-route-id="@Model.CoursesId"><i class="bi bi-heart-fill"></i></a>
+                            }
+                            @if (ViewBag.IsFavorite <= 0)
+                            {
+                                <a class="btn btn-block btn-secondary py-3 px-5" asp-action="AddToFavorite" asp-controller="Course" asp-route-id="@Model.CoursesId"><i class="bi bi-heart"></i></a>
+
+                            }
+                                    
+                                    
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Detail End -->
+               
+        }
+    }
+
+
+    
+
+
+</form>
+
+
+
+  @*   <div class="container-xxl py-2 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+            <input type="hidden" id="courseId" value="@Model.CoursesId" />
+                <span>Enter your feedback:</span><br />
+                <textarea rows="4" cols="50" id="txtMessage"></textarea><br />
+                <button type="submit" id="btnSend" class="btn btn-lg btn-outline-primary">Comment</button>
+
+            </div>
+        <div class="col-md-6">
+            <h3>Comment List</h3>
+            <ul id="list" class="alert alert-info"></ul>
+        </div>
+        </div>
+    </div>
+
+
+
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/aspnet/signalr/dist/browser/signalr.js"></script>
+<script>
+    var connection = new signalR.HubConnectionBuilder().withUrl("/commentHub").build();
+    connection.on("ReceiveMessage", function (senderName, message) {
+        var msg = senderName + ": " + message;
+        var li = document.createElement("li");
+        li.textContent = msg;
+        $("#list").prepend(li);
+    });
+    connection.start();
+    $("#btnSend").on("click", function () {
+        var message = $("#txtMessage").val();
+        var courseId = $("#courseId").val();
+        connection.invoke("SendMessage", courseId, message).catch(function (err) {
+        console.error(err.toString());
+
+
+
+        });
+        location.reload();
+    });
+
+
+
+
+
+
+
+</script>
+    *@
+
+
+

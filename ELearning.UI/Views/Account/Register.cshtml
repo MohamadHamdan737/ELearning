@@ -1,0 +1,61 @@
+﻿@model RegistorViewModel
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = "_UserLayout";
+}
+
+
+<link href="~/css/stylesheet1.css" rel="stylesheet"/>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Register" method="post">
+            <div asp-validation-summary="All" class="text-danger"></div>
+			<div  class="login-wrap">
+				<div class="login-html">
+					<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign up</label>
+					<div class="login-form">
+						<div class="sign-in-htm">
+							<div class="group">
+								<label asp-for="Email" class="label">Email</label>
+								<input id="user" asp-for="Email" type="text" placeholder="user@example.com" class="input">
+								<span asp-validation-for="Email" class="text-danger"></span>
+							</div>
+							<div class="group">
+								<label asp-for="UserName" class="label">User Name</label>
+								<input id="username" asp-for="UserName" type="text" class="input">
+								<span asp-validation-for="UserName" class="text-danger"></span>
+							</div>	
+							<div class="group">
+								<label asp-for="Mopile" class="label">Mopile</label>
+								<input id="mopile" asp-for="Mopile" type="number" class="input">
+								<span asp-validation-for="Mopile" class="text-danger"></span>
+							</div>		
+							
+							<div class="group">
+								<label asp-for="Password" class="label">Password</label>
+								<input id="pass" asp-for="Password" type="password" class="input" data-type="password">
+								<span asp-validation-for="Password" class="text-danger"></span>
+							</div>
+							<div class="group">
+								<label asp-for="ConfirmPassword" class="label">Confirm Password</label>
+								<input id="pass" asp-for="ConfirmPassword" type="password" class="input" data-type="password">
+								<span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+							</div>
+							<div class="group">
+								<input type="submit" class="button" value="Sign up">
+							</div>
+                           
+							<div class="text-center mt-4 font-weight-light">
+								Already have an account?  <a asp-action="Login" class="text-primary">Login</a>
+							</div>
+							<div class="hr"></div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,46 @@
+﻿@model Videos
+@{
+    ViewData["Title"] = "DeleteVideos";
+    Layout = "_AdminLayout";
+}
+<link href="~/css/style2.css" rel="stylesheet" />
+<div class="ml">
+<h3>Are you sure you want to delete this?</h3>
+
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="DeleteVideos" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="form-group">
+                    <div>
+                        <label asp-for="VideoFile" class="control-label">Courses Video</label>
+                        <video width="320" height="240" controls>
+                            <source src="data:video/mp4;base64,@Convert.ToBase64String(Model.VideoFileData)" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <span asp-validation-for="VideoFile" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Titel" class="control-label">Titel : </label>
+                    <p>@Model.Titel</p>
+                    <span asp-validation-for="Titel" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label">Description : </label>
+                    <p>@Model.Description</p>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Delete" class="btn btn-lg btn-outline-danger" />
+                    <a asp-action="Course" asp-controller="Admin" class="btn btn-lg btn-default">Cancel</a>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+

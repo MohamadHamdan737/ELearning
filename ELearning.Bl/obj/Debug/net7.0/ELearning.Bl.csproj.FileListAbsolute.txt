@@ -1,0 +1,12 @@
+D:\Programs\.net Project\ELearning\ELearning.Bl\bin\Debug\net7.0\ELearning.Bl.deps.json
+D:\Programs\.net Project\ELearning\ELearning.Bl\bin\Debug\net7.0\ELearning.Bl.dll
+D:\Programs\.net Project\ELearning\ELearning.Bl\bin\Debug\net7.0\ELearning.Bl.pdb
+D:\Programs\.net Project\ELearning\ELearning.Bl\obj\Debug\net7.0\ELearning.Bl.csproj.AssemblyReference.cache
+D:\Programs\.net Project\ELearning\ELearning.Bl\obj\Debug\net7.0\ELearning.Bl.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programs\.net Project\ELearning\ELearning.Bl\obj\Debug\net7.0\ELearning.Bl.AssemblyInfoInputs.cache
+D:\Programs\.net Project\ELearning\ELearning.Bl\obj\Debug\net7.0\ELearning.Bl.AssemblyInfo.cs
+D:\Programs\.net Project\ELearning\ELearning.Bl\obj\Debug\net7.0\ELearning.Bl.csproj.CoreCompileInputs.cache
+D:\Programs\.net Project\ELearning\ELearning.Bl\obj\Debug\net7.0\ELearning.Bl.dll
+D:\Programs\.net Project\ELearning\ELearning.Bl\obj\Debug\net7.0\refint\ELearning.Bl.dll
+D:\Programs\.net Project\ELearning\ELearning.Bl\obj\Debug\net7.0\ELearning.Bl.pdb
+D:\Programs\.net Project\ELearning\ELearning.Bl\obj\Debug\net7.0\ref\ELearning.Bl.dll

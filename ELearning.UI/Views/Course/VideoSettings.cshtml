@@ -1,0 +1,27 @@
+﻿@model List<Videos>
+@{
+    ViewData["Title"] = "VideoSettings";
+    Layout = "_AdminLayout";
+}
+<link href="~/css/style2.css" rel="stylesheet" />
+
+<div class="ml">
+    <a asp-action="AddVideos" asp-route-id="@ViewBag.Id" class="btn btn-lg btn-outline-success"><i class="bi bi-upload mr-2"></i>Upload Video</a>
+    @foreach (var item in Model)
+    {
+
+        <br/>
+        <video width="320" height="240" controls>
+    <source  src="data:video/mp4;base64,@Convert.ToBase64String(item.VideoFileData)" type="video/mp4" />
+    Your browser does not support the video tag.
+    </video><br/> <hr/>
+        <a asp-action="EditeVideo" asp-route-id="@item.VideosId" class="btn btn-lg btn-outline-primary"><i class="bi bi-pencil mr-2"></i>Edite Video</a>
+        <a asp-action="DeleteVideos" asp-route-id="@item.VideosId" class="btn btn-lg btn-outline-danger"><i class="bi bi-trash3-fill mr-2"></i>Delete Video</a>
+        <br /> <hr />
+    }
+    </div>
+
+
+
+
+

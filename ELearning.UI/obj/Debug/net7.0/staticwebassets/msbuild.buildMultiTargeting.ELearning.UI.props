@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ELearning.UI.props" />
+</Project>

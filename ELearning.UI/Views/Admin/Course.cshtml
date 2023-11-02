@@ -1,0 +1,111 @@
+﻿@model IEnumerable<Courses>
+@{
+    ViewData["Title"] = "Course";
+    Layout = "_AdminLayout";
+}
+
+
+
+
+<link href="~/css/style2.css" rel="stylesheet" />
+<div class="ml">
+    <form asp-action="Index" method="post">
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="mb-5"> Courses</h1>
+                </div>
+
+
+                <div class="text-center wow fadeInUp">
+                    <a href="/Course/Create" class="btn btn-lg btn-outline-success">
+                        <i class="bi bi-plus mr-2"></i>
+                        Create Course
+                    </a>
+
+                    @if (@ViewBag.isDeleted > 0)
+                    {
+                        <a asp-action="Soft" asp-controller="Course" class="btn btn-lg btn-outline-danger"><i class="bi bi-trash3-fill mr-2"></i>Restor</a>
+                    }
+
+                </div>                    
+         
+
+
+                
+            </div><br />
+
+        <div class="row g-4 justify-content-center">
+            @foreach (var item in Model)
+            {
+                if (item.IsDeleted == false)
+                {
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+
+                        <div class="course-item bg-light">
+
+                            <div class=" overflow-hidden">
+
+
+
+                                @if (item.FileDataImage == null)
+                                {
+                                    <img class="img-fluid" src="~/img/noUser.png" alt="">
+                                }
+                                <div class="img">
+                                        <img class="img-fluid" width="500" controls src="data:image/png;base64,@Convert.ToBase64String(item.FileDataImage)" alt="Image" />
+@*                                     <img class="img-fluid" width="500" src="~/ImageCourse/@item.ImageName" alt="">
+ *@                                </div>
+                                <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                </div>
+                            </div>
+                                    <div class="text-center p-4 pb-0">
+
+
+                                        <h5 class="mb-4">@item.CoursesName</h5>
+                                       @*  <h5 class="mb-4">@item.Description</h5> *@
+                                    </div>
+                            <div class="d-flex border-top">
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary mr-2"></i>@item.InstructorName</small>
+                                <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary mr-2"></i>@item.Hours</small>
+                            </div>
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <div class="d-flex border-top">
+
+                                        <small class="flex-fill text-center border-end py-2"><a asp-action="Details" asp-controller="Course" class="btn " asp-route-id="@item.CoursesId"><i class="bi bi-three-dots mr-2"></i>Details</a> </small>
+                                        <small class="flex-fill text-center border-end py-2"><a asp-action="Delete" asp-controller="Course" class="btn " asp-route-id="@item.CoursesId"><i class="bi bi-trash3-fill mr-2"></i>Delete</a></small>
+                                        <small class="flex-fill text-center border-end py-2"><a asp-action="Edit" asp-controller="Course" class="btn " asp-route-id="@item.CoursesId"><i class="bi bi-pencil mr-2"></i>Edite</a></small>
+                                </div>
+                            }
+                           
+
+                        </div>
+                    </div>
+                }
+
+
+
+
+
+
+
+
+
+            }
+        </div>
+
+    </div>
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+

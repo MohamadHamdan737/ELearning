@@ -1,0 +1,841 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\ELearning.UI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ELearning.UI.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\CertificateImage\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\CertificateImage\\carousel-1.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\CertificateImage\\image (2).png",
+      "PackagePath": "staticwebassets\\CertificateImage\\image (2).png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\CertificateImage\\java.png",
+      "PackagePath": "staticwebassets\\CertificateImage\\java.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\CertificateImage\\java2..png",
+      "PackagePath": "staticwebassets\\CertificateImage\\java2..png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\CertificateImage\\team-2.jpg",
+      "PackagePath": "staticwebassets\\CertificateImage\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\CertificateImage\\test.mp4",
+      "PackagePath": "staticwebassets\\CertificateImage\\test.mp4"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\ExpertInstructors.png",
+      "PackagePath": "staticwebassets\\ImageCourse\\ExpertInstructors.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\WhatsApp Image 2023-01-15 at 8.40.12 PM.jpeg",
+      "PackagePath": "staticwebassets\\ImageCourse\\WhatsApp Image 2023-01-15 at 8.40.12 PM.jpeg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\asp.net.png",
+      "PackagePath": "staticwebassets\\ImageCourse\\asp.net.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\c#.png",
+      "PackagePath": "staticwebassets\\ImageCourse\\c#.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\c#2.png",
+      "PackagePath": "staticwebassets\\ImageCourse\\c#2.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\c#3.png",
+      "PackagePath": "staticwebassets\\ImageCourse\\c#3.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\c#4.png",
+      "PackagePath": "staticwebassets\\ImageCourse\\c#4.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\ImageCourse\\carousel-1.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\ImageCourse\\carousel-2.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\ccharp.png",
+      "PackagePath": "staticwebassets\\ImageCourse\\ccharp.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\download (1).png",
+      "PackagePath": "staticwebassets\\ImageCourse\\download (1).png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\download.jfif",
+      "PackagePath": "staticwebassets\\ImageCourse\\download.jfif"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\flutter.png",
+      "PackagePath": "staticwebassets\\ImageCourse\\flutter.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\flutter2.png",
+      "PackagePath": "staticwebassets\\ImageCourse\\flutter2.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\flutter3.png",
+      "PackagePath": "staticwebassets\\ImageCourse\\flutter3.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\graphicdesign.jfif",
+      "PackagePath": "staticwebassets\\ImageCourse\\graphicdesign.jfif"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\image (2).png",
+      "PackagePath": "staticwebassets\\ImageCourse\\image (2).png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\java.png",
+      "PackagePath": "staticwebassets\\ImageCourse\\java.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\java2..png",
+      "PackagePath": "staticwebassets\\ImageCourse\\java2..png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\kotlin.png",
+      "PackagePath": "staticwebassets\\ImageCourse\\kotlin.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\kotlin2.jfif",
+      "PackagePath": "staticwebassets\\ImageCourse\\kotlin2.jfif"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\kotlin2.jpg",
+      "PackagePath": "staticwebassets\\ImageCourse\\kotlin2.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\kotlin3.jpg",
+      "PackagePath": "staticwebassets\\ImageCourse\\kotlin3.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\marketing.png",
+      "PackagePath": "staticwebassets\\ImageCourse\\marketing.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\swift.jfif",
+      "PackagePath": "staticwebassets\\ImageCourse\\swift.jfif"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\team-1.jpg",
+      "PackagePath": "staticwebassets\\ImageCourse\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\team-2.jpg",
+      "PackagePath": "staticwebassets\\ImageCourse\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\team-3.jpg",
+      "PackagePath": "staticwebassets\\ImageCourse\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\team-4.jpg",
+      "PackagePath": "staticwebassets\\ImageCourse\\team-4.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\test.mp4",
+      "PackagePath": "staticwebassets\\ImageCourse\\test.mp4"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\ImageCourse\\videoediting.jfif",
+      "PackagePath": "staticwebassets\\ImageCourse\\videoediting.jfif"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\SliderImage\\Abd.jfif",
+      "PackagePath": "staticwebassets\\SliderImage\\Abd.jfif"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\SliderImage\\Anas.jfif",
+      "PackagePath": "staticwebassets\\SliderImage\\Anas.jfif"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\SliderImage\\ExpertInstructors.png",
+      "PackagePath": "staticwebassets\\SliderImage\\ExpertInstructors.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\SliderImage\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\SliderImage\\carousel-1.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\SliderImage\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\SliderImage\\carousel-2.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\SliderImage\\team-3.jpg",
+      "PackagePath": "staticwebassets\\SliderImage\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\Upload\\Abd.jfif",
+      "PackagePath": "staticwebassets\\Upload\\Abd.jfif"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\Upload\\Anas.jfif",
+      "PackagePath": "staticwebassets\\Upload\\Anas.jfif"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\Upload\\ExpertInstructors.png",
+      "PackagePath": "staticwebassets\\Upload\\ExpertInstructors.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\Upload\\Waleed.jfif",
+      "PackagePath": "staticwebassets\\Upload\\Waleed.jfif"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\Upload\\WhatsApp Image 2023-01-15 at 8.40.12 PM.jpeg",
+      "PackagePath": "staticwebassets\\Upload\\WhatsApp Image 2023-01-15 at 8.40.12 PM.jpeg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\Upload\\download (1).png",
+      "PackagePath": "staticwebassets\\Upload\\download (1).png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\Upload\\i.jfif",
+      "PackagePath": "staticwebassets\\Upload\\i.jfif"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\Upload\\ibrahem.jfif",
+      "PackagePath": "staticwebassets\\Upload\\ibrahem.jfif"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\Upload\\logo.png",
+      "PackagePath": "staticwebassets\\Upload\\logo.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\Upload\\shaheen.jfif",
+      "PackagePath": "staticwebassets\\Upload\\shaheen.jfif"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\Upload\\team-1.jpg",
+      "PackagePath": "staticwebassets\\Upload\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\Upload\\team-2.jpg",
+      "PackagePath": "staticwebassets\\Upload\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\Upload\\team-3.jpg",
+      "PackagePath": "staticwebassets\\Upload\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\Upload\\team-4.jpg",
+      "PackagePath": "staticwebassets\\Upload\\team-4.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\VideoCourse\\team-3.jpg",
+      "PackagePath": "staticwebassets\\VideoCourse\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\css\\Add.css",
+      "PackagePath": "staticwebassets\\css\\Add.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\css\\Admin.css",
+      "PackagePath": "staticwebassets\\css\\Admin.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\css\\Comment.css",
+      "PackagePath": "staticwebassets\\css\\Comment.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\css\\Footer.css",
+      "PackagePath": "staticwebassets\\css\\Footer.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\css\\MyAccount.css",
+      "PackagePath": "staticwebassets\\css\\MyAccount.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\css\\Search.css",
+      "PackagePath": "staticwebassets\\css\\Search.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\css\\Style2.css",
+      "PackagePath": "staticwebassets\\css\\Style2.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\css\\StyleSheet1.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet1.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\css\\menu.css",
+      "PackagePath": "staticwebassets\\css\\menu.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-1.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-2.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-3.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\img\\cat-4.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\course-1.jpg",
+      "PackagePath": "staticwebassets\\img\\course-1.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\course-2.jpg",
+      "PackagePath": "staticwebassets\\img\\course-2.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\course-3.jpg",
+      "PackagePath": "staticwebassets\\img\\course-3.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\noUser.png",
+      "PackagePath": "staticwebassets\\img\\noUser.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\index3.html",
+      "PackagePath": "staticwebassets\\index3.html"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\js\\Comment.js",
+      "PackagePath": "staticwebassets\\js\\Comment.js"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\js\\image.js",
+      "PackagePath": "staticwebassets\\js\\image.js"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\aspnet\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\lib\\aspnet\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\aspnet\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\lib\\aspnet\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\counterup\\counterup.min.js",
+      "PackagePath": "staticwebassets\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_accordion.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_card.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_close.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_containers.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_functions.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_helpers.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_images.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_modal.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_nav.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_offcanvas.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_popover.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_root.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_spinners.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_toasts.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_type.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_labels.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\forms\\_validation.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_position.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_container.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\utilities\\_api.scss"
+    },
+    {
+      "Id": "D:\\Programs\\.net Project\\ELearning\\ELearning.UI\\wwwroot\\scss\\bootstrap\\scss\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\bootstrap\\scss\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ELearning.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ELearning.UI.props",
+      "PackagePath": "build\\ELearning.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ELearning.UI.props",
+      "PackagePath": "buildMultiTargeting\\ELearning.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ELearning.UI.props",
+      "PackagePath": "buildTransitive\\ELearning.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

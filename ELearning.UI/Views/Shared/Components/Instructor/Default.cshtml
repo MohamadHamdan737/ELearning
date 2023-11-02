@@ -1,0 +1,94 @@
+﻿@model IEnumerable<Instructor>
+@{
+    ViewData["Title"] = "Index";
+}
+<link href="~/css/search.css" rel="stylesheet" />
+<link href="~/css/style2.css" rel="stylesheet" />
+<form asp-action="Index" method="post">
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
+                <h1 class="mb-5">Expert Instructors</h1>
+            </div>
+    
+           
+
+                @if (ViewBag.isDeleted > 0 && User.IsInRole("Admin"))
+                {
+                    <a asp-action="Restor" asp-controller="Instructor" class="btn btn-danger">Restor</a>
+
+                }
+        </div><br/>
+
+
+           
+
+            <div class="row g-4">
+                @foreach (var item in Model)
+                {
+
+
+
+                    if (item.IsDeleted == false)
+                    {
+                        <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="team-item bg-light">
+                                <div class="overflow-hidden">
+              @if (item.Images == null)
+             {
+                 <img class="img-fluid" src="~/img/noUser.png" alt="">
+             }
+                                <div class="img">
+                                <img class="img-fluid" width="500" src="~/Upload/@item.Images" alt="">
+                                </div>
+         </div>
+         @if (item.InstagramLink != null || item.FacebookLink != null || item.TwitterLink != null)
+         {
+             <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                 <div class="bg-light d-flex justify-content-center pt-2 px-1">
+
+                     <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                         <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                             @if (item.FacebookLink != null)
+                             {
+                                 <a class="btn btn-sm-square btn-primary mx-1" href="@item.FacebookLink"><i class="fab fa-facebook-f"></i></a>
+
+                             }
+                             @if (item.TwitterLink != null)
+                             {
+                                 <a class="btn btn-sm-square btn-primary mx-1" href="@item.TwitterLink"><i class="fab fa-twitter"></i></a>
+
+                             }
+                             @if (item.InstagramLink != null)
+                             {
+                                 <a class="btn btn-sm-square btn-primary mx-1" href="@item.InstagramLink"><i class="fab fa-instagram"></i></a>
+
+                             }
+                         </div>
+                     </div>
+
+
+                 </div>
+             </div>
+         }
+         <div class="text-center p-4">
+             <h5 class="mb-0">@item.InstructorName</h5><br />
+             <h5>@item.Majoring</h5><br />
+             <a asp-action="CoursesInstrouctor" asp-controller="Instructor" asp-route-id="@item.InstructorId">Show courses</a><br />
+
+
+                        <br />
+                          </div>
+                            </div>
+                             </div>
+
+                    }
+
+                }
+            </div>
+       
+
+
+    </div>
+</form>

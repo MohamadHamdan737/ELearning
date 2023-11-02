@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ecd53wySRnapc+npZXzSOJynFp9BMs796DxyyJ/WZ4Y+aVQhNLmhEyvKDOmHL6163HDKAkFKyQd5OpQDrC5uMg==",
+  "success": true,
+  "projectFilePath": "D:\\Programs\\.net Project\\ELearning\\ELearning.Bl\\ELearning.Bl.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,81 @@
+﻿@model Courses
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "_AdminLayout";
+}
+<link href="~/css/add.css" rel="stylesheet" />
+<link href="~/css/Style2.css" rel="stylesheet" />
+
+<hr />
+<div class="ml3">
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+
+    <div class="hw">
+     <div class="row">
+      <div class="col-md-12">
+       <div class="card shadow-lg">
+            <div class="card-body">
+                <div class="filter-sidebar ">
+                    <h3>Create Course</h3>
+                    <hr/>
+
+                    <div class="form-group">
+                        <label asp-for="CoursesName" class="control-label">Courses Name</label>
+                        <input asp-for="CoursesName" class="form-control" />
+                        <span asp-validation-for="CoursesName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Hours" class="control-label"></label>
+                        <input asp-for="Hours" class="form-control" />
+                        <span asp-validation-for="Hours" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Description" class="control-label"></label>
+                        <input asp-for="Description" class="form-control" />
+                        <span asp-validation-for="Description" class="text-danger"></span>
+                    </div>
+                    <div class="Wform-group">
+                        <label asp-for="InstructorName" class="control-label">Full instructor name</label>
+                        <input asp-for="InstructorName" class="form-control" />
+                        <span asp-validation-for="InstructorName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                    <label asp-for="ImageFile" class="control-label">Course Image</label>
+                    <input asp-for="ImageFile" type="file" name="ImageFile" accept="image/*" class="form-control" />
+                         <span asp-validation-for="ImageFile" class="text-danger"></span>
+                     </div>
+                    <div class="form-group">
+                    <label asp-for="CertificateFile" class="control-label">Certificate Image</label>
+                    <input asp-for="CertificateFile" type="file" name="CertificateFile" accept="image/*" class="form-control" />
+                      <span asp-validation-for="CertificateFile" class="text-danger"></span>
+                    </div>
+                    <div class="form-group mt-4">
+                        <label asp-for="CreationDate" class="control-label">Creation Date</label>
+                        <input asp-for="CreationDate" class="form-control" />
+                        <span asp-validation-for="CreationDate" class="text-danger"></span>
+                    </div>
+
+                     <hr class="border-light m-0">
+                                <div class="text-right mt-3">
+                        <input type="submit" value="Create" class="btn btn-lg btn-outline-primary" />
+                        <a asp-action="Course" asp-controller="Admin" class="btn btn-lg btn-default">Cancel</a>
+                    </div>
+
+                   <div class="pb-3"></div>
+                </div>
+            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+
+
+}

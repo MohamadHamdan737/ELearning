@@ -1,0 +1,21 @@
+﻿@model Slider
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "_AdminLayout";
+}
+<link href="~/css/Style2.css" rel="stylesheet" />
+
+<div class="ml">
+    <h3>Are you sure you want to delete this Slider?</h3>
+    <div>
+
+        <hr />
+
+
+        <form asp-action="Delete">
+            <input type="submit" value="Delete" class="btn btn-lg btn-outline-danger" />
+            <a asp-action="Index" asp-controller="Home" class="btn btn-lg btn-default">Cancel</a>
+        </form>
+    </div>
+</div>

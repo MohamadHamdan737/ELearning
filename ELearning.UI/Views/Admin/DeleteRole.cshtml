@@ -1,0 +1,19 @@
+﻿@model Microsoft.AspNetCore.Identity.IdentityRole
+
+@{
+    ViewData["Title"] = "DeleteRole";
+    Layout = "_AdminLayout";
+}
+
+<link href="~/css/Style2.css" rel="stylesheet" />
+<div class="ml">
+<h1 >Are you sure to delete<samp class="text-danger">@Model.Name</samp>?</h1>
+<form method="post" asp-action="DeleteRole">
+    @Html.HiddenFor(x=>x.Id)
+        <input type="submit" value="Delete" class="btn btn-lg btn-outline-danger" />
+        <a asp-action="RolesList" class="btn btn-lg btn-default">Cancel</a>
+
+
+
+</form>
+</div>

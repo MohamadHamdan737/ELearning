@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ELearning.UI",
+    "\\ELearning.UI\\Controllers",
+    "\\ELearning.UI\\Views",
+    "\\ELearning.UI\\Views\\Account",
+    "\\ELearning.UI\\Views\\Course",
+    "\\ELearning.UI\\Views\\Home",
+    "\\ELearning.UI\\Views\\Instructor",
+    "\\ELearning.UI\\Views\\Shared"
+  ],
+  "SelectedNode": "\\ELearning.sln",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,143 @@
+﻿@model Courses
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "_AdminLayout";
+}
+
+
+
+<link href="~/css/MyAccount.css" rel="stylesheet" />
+<hr />
+
+<link href="~/css/Style2.css" rel="stylesheet" />
+<hr />
+<div class="ml">
+<div class="container light-style flex-grow-1 container-p-y">
+
+    <h4 class="font-weight-bold py-3 mb-4">
+        Edite Course
+    </h4>
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+        <div class="card overflow-hidden">
+            <div class="row no-gutters row-bordered row-border-light">
+                <div class="col-md-3 pt-0">
+                    <div class="list-group list-group-flush account-settings-links">
+                        <a class="list-group-item list-group-item-action active" data-toggle="list" href="#account-general">General</a>   
+                        <a asp-action="VideoSettings" asp-route-id="@Model.CoursesId" class="list-group-item list-group-item-action" id="image"><i class="bi bi-gear mr-2"></i>Video Settings</a>
+                            <a class="list-group-item list-group-item-action" data-toggle="list" href="#video"><i class="bi bi-image mr-2"></i> Certificate</a>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="tab-content">
+                        <div class="tab-pane fade active show" id="account-general">
+
+                            <div class="card-body media align-items-center">
+                                    <div id="ImageFile">
+                                    <img class="img-fluid"  width="200" height="100" controls src="data:image/png;base64,@Convert.ToBase64String(Model.FileDataImage!)" alt="Image" />
+                                    </div>
+                                    <div class="media-body ml-4">
+                                    <label class="btn btn-outline-primary">
+                                        Upload new photo
+                                            <input asp-for="ImageFile" id="ImageFile2" type="file" name="ImageFile" accept="image/*" class="form-control" />
+
+                                    </label> &nbsp;
+
+                                    <div class="text-light small mt-1">Allowed JPG, GIF or PNG. Max size of 10 MB</div>
+                                </div>
+                            </div>
+                            <hr class="border-light m-0">
+
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <label class="form-label">Courses Name</label>
+                                    <input type="text" class="form-control mb-1" asp-for="CoursesName" />
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Hours</label>
+                                    <input type="text" class="form-control" asp-for="Hours">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Description</label>
+                                        <textarea asp-for="Description" class="form-control mb-1"></textarea>
+
+                                    <div class="form-group">
+                                        <label class="form-label">Instructor Name</label>
+                                        <input type="text" class="form-control" asp-for="InstructorName">
+                                    </div>
+                                </div>
+                            
+                            </div>
+
+
+                        </div>
+                            <div class="card-body pb-2" id="video">
+                             
+                              
+                                <div>
+                                      
+
+                                </div>
+
+                            
+                               
+
+
+                            </div> 
+                            <div class="card-body pb-2" id="Certificate">
+
+                                <div class="card-body media align-items-center" id="CertificateFile">
+
+                                    <img class="img-fluid" width="320" height="240" controls src="data:image/png;base64,@Convert.ToBase64String(Model.FileDataCertificate)" alt="Image" />                                <div class="media-body ml-4">
+                                      
+                                        <label class="btn btn-outline-primary">
+                                            Upload new photo
+                                            <input asp-for="CertificateFile" id="CertificateFile2" type="file" name="CertificateFile" accept="image/*" class="form-control" />
+
+                                        </label> &nbsp;
+
+                                        <div class="text-light small mt-1">Allowed JPG, GIF or PNG. Max size of 10 MB</div>
+                                       
+                                    </div>
+                                  
+                                </div>
+
+                                <hr class="border-light m-0">
+                                <div class="text-right mt-3">
+                                    <input type="submit" value="Save Changes" class="btn btn-lg btn-outline-primary" />
+                                    <a asp-action="Course" asp-controller="Admin" class="btn btn-lg btn-default">Cancel</a>
+                                </div>
+                            </div>
+                          
+
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+    </form>
+</div>
+</div>
+
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+        $("#ImageFile2").on('change', function () {
+            var image = $("#ImageFile");
+            var image2 = window.URL.createObjectURL(this.files[0]);
+            image.find("img").attr('src', image2);
+        });
+        $("#CertificateFile2").on('change', function () {
+            var CertificateFileimage = $("#CertificateFile");
+            var CertificateFileimage2 = window.URL.createObjectURL(this.files[0]);
+            CertificateFileimage.find("img").attr('src', CertificateFileimage2);
+        });
+    });
+</script>
+
+
+

@@ -1,0 +1,39 @@
+﻿@model Videos
+
+@{
+    ViewData["Title"] = "AddVideos";
+    Layout = "_AdminLayout";
+}
+<link href="~/css/style2.css" rel="stylesheet" />
+<hr />
+<div class="ml">
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddVideos" method="post" enctype="multipart/form-data">
+
+            <div id="Video">
+                <label asp-for="VideoFile" class="control-label">Courses Video</label>
+                    <input asp-for="VideoFile" id="Video2" type="file" name="VideoFile" accept="video/*" class="form-control" />
+                <span asp-validation-for="VideoFile" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Titel" class="control-label"></label>
+                <input asp-for="Titel" class="form-control" />
+                <span asp-validation-for="Titel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea rows="4" asp-for="Description" class="form-control" ></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                    <input type="submit" value="Add" class="btn btn-lg btn-outline-primary" />
+                 <a asp-action="Course" asp-controller="Admin" class="btn btn-lg btn-default">Cancel</a>
+
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+

@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Message>
+@{
+    ViewData["Title"] = "Comment";
+}
+@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<IdentityUser> _signInManager;
+<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="text-center">
+            <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
+            <h1 class="mb-5">Our Students Say!</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel position-relative">
+            @foreach (var message in Model)
+            {
+
+                <div class="testimonial-item text-center">
+                    <img class="border rounded-circle p-2 mx-auto mb-3" src="~/img/noUser.png" style="width: 80px; height: 80px;">
+                    <h5 class="mb-0">@message.SenderName</h5>
+                    <p class="mb-0">@message.Timestamp</p>
+                    
+                    <div class="testimonial-text bg-light text-center p-4">
+                        <p id="list" class="mb-0">@message.Messages.</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+   @if (_signInManager.IsSignedIn(User))
+{
+ 
+    <div class="container-xxl py-2 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="text-center">
+                <span>Enter your feedback:</span><br />
+                <textarea rows="4" cols="50" id="txtMessage"></textarea><br />
+                <button type="submit" id="btnSend" class="btn btn-lg btn-outline-primary">Comment</button>
+
+            </div>
+        </div>
+    </div>
+}
+
+
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/aspnet/signalr/dist/browser/signalr.js"></script>
+<script>
+    var connection = new signalR.HubConnectionBuilder().withUrl("/commentHub").build();
+    connection.on("ReceiveMessage", function (senderName, message) {
+        var msg = senderName + ": " + message;
+        var li = document.createElement("li");
+        li.textContent = msg;
+        $("#list").prepend(li);
+    });
+    connection.start();
+    $("#btnSend").on("click", function () {
+        var message = $("#txtMessage").val();
+        connection.invoke("SendMessage", message).catch(function (err) {
+            console.error(err.toString());
+
+
+
+        });
+        location.reload();
+    });
+
+
+
+
+
+
+
+</script>

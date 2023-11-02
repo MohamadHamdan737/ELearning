@@ -1,0 +1,109 @@
+﻿@model Instructor
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "_AdminLayout";
+}
+
+<link href="~/css/MyAccount.css" rel="stylesheet" />
+<link href="~/css/Style2.css" rel="stylesheet" />
+<hr />
+<div class="ml">
+<div class="container light-style flex-grow-1 container-p-y">
+
+    <h4 class="font-weight-bold py-3 mb-4">
+        Edite Instructor
+    </h4>
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <div class="card overflow-hidden">
+        <div class="row no-gutters row-bordered row-border-light">
+            <div class="col-md-3 pt-0">
+                <div class="list-group list-group-flush account-settings-links">
+                    <a class="list-group-item list-group-item-action active" data-toggle="list" href="#account-general">General</a>
+                        <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-social-links"><i class="bi bi-link mr-2"></i>Social links</a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="account-general">
+
+                        <div class="card-body media align-items-center">
+                            <img class="img-fluid" height="100" width="200" src="~/Upload/@Model.Images" alt="">
+                            <div class="media-body ml-4">
+                                <label class="btn btn-outline-primary">
+                                    Upload new photo
+                                    <input asp-for="File" type="file" name="File" accept="image/*" class="form-control" />
+
+                                </label> &nbsp;
+
+                                <div class="text-light small mt-1">Allowed JPG, GIF or PNG. Max size of 800K</div>
+                            </div>
+                        </div>
+                        <hr class="border-light m-0">
+
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label class="form-label">Instructor Name</label>
+                                <input type="text" class="form-control mb-1" asp-for="InstructorName" />
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">City</label>
+                                <input type="text" class="form-control" asp-for="City">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">E-mail</label>
+                                <input type="text" class="form-control mb-1" asp-for="Email">
+                             
+                            <div class="form-group">
+                                <label class="form-label">Majoring</label>
+                                <input type="text" class="form-control" asp-for="Majoring">
+                            </div>
+                        </div>
+              
+                    </div>
+                   
+
+                        </div>
+                            <div class="card-body pb-2" id="account-social-links">
+
+                                <div class="form-group">
+                                    <label class="form-label">Twitter</label>
+                                    <input type="text" class="form-control" asp-for="TwitterLink">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Facebook</label>
+                                    <input type="text" class="form-control" asp-for="FacebookLink">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label">Instagram</label>
+                                    <input type="text" class="form-control" asp-for="InstagramLink">
+                                </div>
+                                <div class="text-right mt-3">
+                                    <input type="submit" value="Save Changes" class="btn btn-lg btn-outline-primary" />
+                                    <a asp-action="Instructors" asp-controller="Admin" class="btn btn-lg btn-default">Cancel</a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+        </form>
+    </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
